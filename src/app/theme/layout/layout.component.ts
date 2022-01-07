@@ -88,7 +88,7 @@ export class LayoutComponent implements OnInit {
         this.themeConfig.theme = 'horizontal';
         this.themeConfig.themeType = 'default';
         break;
-      case baseHref + '/theme/view/horizontal/dark':
+      case baseHref + '/home':
         this.themeConfig.theme = 'horizontal';
         this.themeConfig.themeType = 'dark';
         break;

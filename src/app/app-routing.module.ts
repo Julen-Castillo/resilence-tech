@@ -6,19 +6,19 @@ import { LayoutComponent } from './theme/layout/layout.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/theme/view/horizontal/dark',
-    pathMatch: 'full'
+    redirectTo: 'home',
+    pathMatch: 'full',
   },
   {
     path: 'landing',
     component: LandingComponent
   },
   {
-    path: 'theme',
+    path: '',
     component: LayoutComponent,
     children: [
       {
-        path: 'view/:layout/:type',
+        path: ':type',
         loadChildren: () => import('./view/view.module').then(module => module.ViewModule)
       }
     ]
