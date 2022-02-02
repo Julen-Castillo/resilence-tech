@@ -113,6 +113,30 @@ section#about {
     }
 }
 
+    section#blog{
+    background-image: url("/assets/images/landing/city.jpg");
+    background-color: rgba(0, 0, 0, 0.838);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        padding: 50px 0;
+        h2,
+        em,
+        span,
+        .details p {
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        .details p strong {
+            font-size: 25px;
+        }
+    }
+
 section#services {
     background-image: url("/assets/images/whatwedowp.jpg");
     background-color: rgba(0, 0, 0, 0.838);
@@ -149,8 +173,8 @@ section#experience {
 }
 
 section#contact {
-    background-image: url("/assets/images/emailwp.jpg");
-    background-color: rgba(0, 0, 0, 0.838);
+    
+    background-color: rgba(39, 39, 39, 0.838);
     background-blend-mode: multiply;
     padding: 50px 0;
     background-attachment: fixed;
