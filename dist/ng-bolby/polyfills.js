@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/julen/Escritorio/repos/resilence-tech/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\juan-\Desktop\Eriz apps\resilence-tech\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
